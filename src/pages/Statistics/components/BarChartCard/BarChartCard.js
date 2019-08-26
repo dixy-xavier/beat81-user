@@ -8,14 +8,18 @@ const CustomizedLabel = ({ x, y, fill, value }) => (
   </text>
 );
 
+const Label = ({ label }) => (
+  <div className={styles.cardLabel}>
+    {label}
+  </div>
+);
+
 const BarChartCard = ({ card, statistics }) => (
   <div className={styles.cardWrapper}>
-    <div className={styles.cardLabel}>
-      {card.label}
-    </div>
+    <Label label={card.label} />
     <BarChart
       width={200}
-      height={400}
+      height={200}
       data={statistics}
       margin={{ top: 25, right: 0, left: 0, bottom: 25 }}
     >
@@ -23,12 +27,12 @@ const BarChartCard = ({ card, statistics }) => (
       <YAxis hide />
       <Bar
         dataKey={card.name}
-        barSize={75}
+        barSize={40}
         fontFamily="sans-serif"
         label={<CustomizedLabel />}
       >
         {statistics.map((entry, index) => (
-          <Cell fill={statistics[index].color} />
+          <Cell fill={card.color} />
         ))}
       </Bar>
     </BarChart>

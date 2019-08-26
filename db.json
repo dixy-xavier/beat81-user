@@ -475,8 +475,7 @@
           "calories_burned_sum": 240,
           "calories_burned_avg": 240,
           "points_sum": 12,
-          "points_avg": 12,
-          "color": "#9e4dac"
+          "points_avg": 12
         },
         {
           "id": 2,
@@ -485,8 +484,7 @@
           "calories_burned_sum": 540,
           "calories_burned_avg": 320,
           "points_sum": 30,
-          "points_avg": 15,
-          "color": "#774bce"
+          "points_avg": 15
         },
         {
           "id": 3,
@@ -496,7 +494,6 @@
           "calories_burned_avg": 320,
           "points_sum": 48,
           "points_avg": 20,
-          "color": "#4f48f2"
         }
       ]
     }

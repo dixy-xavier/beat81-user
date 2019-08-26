@@ -1,14 +1,17 @@
 export default [
   {
     label: 'Workouts',
-    name: 'workouts'
+    name: 'workouts',
+    color: '#9e4dac'
   },
   {
     label: 'Points',
-    name: 'points_avg'
+    name: 'points_avg',
+    color: '#774bce'
   },
   {
     label: 'Calories Burned',
-    name: 'calories_burned_sum'
+    name: 'calories_burned_sum',
+    color: '#4f48f2'
   }
 ];

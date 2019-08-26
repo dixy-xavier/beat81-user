@@ -10,7 +10,7 @@ import styles from './NextWorkouts.module.css';
 const localizer = momentLocalizer(moment);
 
 const Booking = ({ type, coach, location, status }) => (
-  <div className={classNames({ [styles.cancelled]: status === 'cancelled' })}>
+  <div className={classNames(styles.slot, { [styles.cancelled]: status === 'cancelled' })}>
     <div className={styles.label}>{type}</div>
     <div className={styles.label}>{coach}</div>
     <div className={styles.label}>{location}</div>

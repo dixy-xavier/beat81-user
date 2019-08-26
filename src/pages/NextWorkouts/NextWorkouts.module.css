@@ -9,11 +9,25 @@
   flex-grow: 1;
 }
 
+.wrapper :global(.rbc-event) {
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.slot {
+  padding: 2px 7px;
+  margin: 0 3px;
+  background-color: #3174ad;
+  border-radius: 5px;
+}
+
 .cancelled {
   opacity: 0.6;
 }
 
 .label {
   font-size: 12px;
+  margin: 2px 0;
   text-transform: capitalize;
 }
