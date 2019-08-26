@@ -1,6 +1,26 @@
 # beat81-user
 BEAT81
 
+## Prerequisites
+npm
+
+node
+
+json-server
+
+## Steps to run
+`git clone https://github.com/dixy-xavier/beat81-user.git`
+
+`cd beat81-user`
+
+`npm i`
+
+`json-server -p 4000 db.json `
+
+`npm start`
+
+Open http://localhost:3000 to view it in the browser
+
 ## Available Scripts
 
 In the project directory, you can run:

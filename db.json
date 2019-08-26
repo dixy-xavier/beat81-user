@@ -33,8 +33,159 @@
           "coach": {
             "name": "Tim"
           }
-        }, {
+        },
+        {
           "id": 2,
+          "calories_burned": 440,
+          "points": 9,
+          "location": {
+            "name": "Mauer park"
+          },
+          "workout": {
+            "date": "2019-08-22T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 3,
+          "calories_burned": 240,
+          "points": 6,
+          "location": {
+            "name": "Alexander platz"
+          },
+          "workout": {
+            "date": "2019-08-24T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 4,
+          "calories_burned": 440,
+          "points": 9,
+          "location": {
+            "name": "Mauer park"
+          },
+          "workout": {
+            "date": "2019-08-22T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 5,
+          "calories_burned": 240,
+          "points": 6,
+          "location": {
+            "name": "Alexander platz"
+          },
+          "workout": {
+            "date": "2019-08-24T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 6,
+          "calories_burned": 440,
+          "points": 9,
+          "location": {
+            "name": "Mauer park"
+          },
+          "workout": {
+            "date": "2019-08-22T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 7,
+          "calories_burned": 240,
+          "points": 6,
+          "location": {
+            "name": "Alexander platz"
+          },
+          "workout": {
+            "date": "2019-08-24T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 8,
+          "calories_burned": 440,
+          "points": 9,
+          "location": {
+            "name": "Mauer park"
+          },
+          "workout": {
+            "date": "2019-08-22T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 9,
+          "calories_burned": 240,
+          "points": 6,
+          "location": {
+            "name": "Alexander platz"
+          },
+          "workout": {
+            "date": "2019-08-24T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 10,
+          "calories_burned": 440,
+          "points": 9,
+          "location": {
+            "name": "Mauer park"
+          },
+          "workout": {
+            "date": "2019-08-22T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 11,
+          "calories_burned": 240,
+          "points": 6,
+          "location": {
+            "name": "Alexander platz"
+          },
+          "workout": {
+            "date": "2019-08-24T15:30:00.000Z",
+            "type": "strength"
+          },
+          "coach": {
+            "name": "Tim"
+          }
+        },
+        {
+          "id": 12,
           "calories_burned": 440,
           "points": 9,
           "location": {
@@ -95,7 +246,7 @@
         "name": "Alexander platz"
       },
       "workout": {
-        "date": "2019-08-24T15:30:00.000Z",
+        "date": "2019-08-28T15:30:00.000Z",
         "type": "strength",
         "coach": {
           "name": "Tim"
@@ -110,7 +261,7 @@
         "name": "Alexander platz"
       },
       "workout": {
-        "date": "2019-08-27T15:30:00.000Z",
+        "date": "2019-08-30T15:30:00.000Z",
         "type": "strength",
         "coach": {
           "name": "Tim"
@@ -125,7 +276,52 @@
         "name": "Mauer park"
       },
       "workout": {
-        "date": "2019-08-29T15:30:00.000Z",
+        "date": "2019-08-31T15:30:00.000Z",
+        "type": "hiit",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexander platz"
+      },
+      "workout": {
+        "date": "2019-09-02T15:30:00.000Z",
+        "type": "strength",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexander platz"
+      },
+      "workout": {
+        "date": "2019-09-04T15:30:00.000Z",
+        "type": "strength",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Mauer park"
+      },
+      "workout": {
+        "date": "2019-09-05T15:30:00.000Z",
         "type": "hiit",
         "coach": {
           "name": "Tim"

@@ -2,6 +2,8 @@
  *  This function takes url path and calls fetch service and
  *  returns a promise which will give the response object
  */
+import moment from 'moment';
+
 export const request = async (url) => {
   const response = await fetch(url);
   return await response.json();
@@ -27,3 +29,11 @@ export const queryObjToSearchStr = (url, queryObj) => {
   }
   return `${url}${keys.reduce((prev, next) => prev.concat('&', next, '=', queryObj[next]), queryStr)}`;
 };
+
+/**
+ *  This function takes string checks whether its a valid date
+ *  and returns boolean
+ */
+export const isDate = (str) => moment(str, [
+  moment.ISO_8601,
+], true).isValid();

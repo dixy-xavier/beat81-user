@@ -1,13 +1,21 @@
+import moment from 'moment';
 import React from 'react';
+import { isDate } from '../../../../utils/utils';
 import HEADERS from '../../PastWorkouts.constants';
 import { getValue } from '../../PastWorkoutsData.utilities';
 import styles from './PastWorkoutsData.module.css';
+
+const getDisplayValue = (workout, key) => {
+  const value = getValue(workout, key);
+  const isValueDate = isDate(value);
+  return (isValueDate ? moment(value).format('MM-DD-YYYY') : value);
+};
 
 const PastWorkoutsDataCard = ({ workout }) => (
   <div className={styles.cardWrapper}>
     {HEADERS.map(item => (
       <div key={item.label} className={styles.cell}>
-        {getValue(workout, item.name)}
+        {getDisplayValue(workout, item.name)}
       </div>
     ))}
   </div>

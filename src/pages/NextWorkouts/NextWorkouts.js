@@ -31,8 +31,11 @@ const NextWorkouts = () => {
       <Calendar
         localizer={localizer}
         events={bookings.map(booking => ({
-          title: <Booking type={booking.workout.type} coach={booking.workout.coach.name}
-                          location={booking.location.name} />,
+          title: <Booking
+            type={booking.workout.type}
+            coach={booking.workout.coach.name}
+            location={booking.location.name}
+          />,
           start: new Date(booking.workout.date),
           end: new Date(booking.workout.date),
         }))}
