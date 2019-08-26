@@ -9,6 +9,10 @@
   flex-grow: 1;
 }
 
+.cancelled {
+  opacity: 0.6;
+}
+
 .label {
   font-size: 12px;
   text-transform: capitalize;
