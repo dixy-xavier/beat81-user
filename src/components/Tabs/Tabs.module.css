@@ -1,0 +1,32 @@
+.tabsWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 40px;
+}
+
+.tab {
+  background-color: #f0f8ff;
+  flex-grow: 1;
+  display: flex;
+  border-bottom: 3px solid rgba(213, 213, 222, 0.4);
+}
+
+.tab:hover {
+  border-bottom: 3px solid rgba(76, 72, 245, 0.4);
+}
+
+.active {
+  border-bottom: 3px solid rgb(76, 72, 245);
+}
+
+.active:hover {
+  border-bottom: 3px solid rgb(76, 72, 245);
+}
+
+.tab > a {
+  flex-grow: 1;
+  padding: 10px;
+  color: rgb(51, 51, 51);;
+  font-weight: 700;
+  text-align: center;
+}

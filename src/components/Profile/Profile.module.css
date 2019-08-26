@@ -1,0 +1,41 @@
+.profileContainer {
+  background-image: linear-gradient(to bottom left, #e85168, #4f48f2);
+  height: 150px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px;
+}
+
+.avatarWrapper {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nameContainer {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.name,
+.email {
+  color: #fff;
+}
+
+.goalContainer {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0 20px 15px;
+  color: #fff;
+  flex-grow: 1;
+  margin: 10px;
+  text-transform: capitalize;
+}

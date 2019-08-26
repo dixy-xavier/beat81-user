@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  padding: 0 40px;
+  height: calc(100% - 50px);
+  justify-content: center;
+}
+
+.wrapper :global(.rbc-calendar) {
+  flex-grow: 1;
+}
+
+.label {
+  font-size: 12px;
+  text-transform: capitalize;
+}
