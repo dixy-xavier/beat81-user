@@ -8,7 +8,7 @@ import styles from './PastWorkoutsData.module.css';
 const getDisplayValue = (workout, key) => {
   const value = getValue(workout, key);
   const isValueDate = isDate(value);
-  return (isValueDate ? moment(value).format('MM-DD-YYYY') : value);
+  return (isValueDate ? moment(value).format('DD-MM-YYYY') : value);
 };
 
 const PastWorkoutsDataCard = ({ workout }) => (

@@ -27,7 +27,7 @@
             "name": "Alexander platz"
           },
           "workout": {
-            "date": "2019-08-24T15:30:00.000Z",
+            "date": "2019-08-25T15:30:00.000Z",
             "type": "strength"
           },
           "coach": {
@@ -42,8 +42,8 @@
             "name": "Mauer park"
           },
           "workout": {
-            "date": "2019-08-22T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-23T15:30:00.000Z",
+            "type": "triple burn"
           },
           "coach": {
             "name": "Tim"
@@ -57,7 +57,7 @@
             "name": "Alexander platz"
           },
           "workout": {
-            "date": "2019-08-24T15:30:00.000Z",
+            "date": "2019-08-21T15:30:00.000Z",
             "type": "strength"
           },
           "coach": {
@@ -72,8 +72,8 @@
             "name": "Mauer park"
           },
           "workout": {
-            "date": "2019-08-22T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-19T15:30:00.000Z",
+            "type": "triple burn"
           },
           "coach": {
             "name": "Tim"
@@ -87,8 +87,8 @@
             "name": "Alexander platz"
           },
           "workout": {
-            "date": "2019-08-24T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-17T15:30:00.000Z",
+            "type": "hiit"
           },
           "coach": {
             "name": "Tim"
@@ -102,7 +102,7 @@
             "name": "Mauer park"
           },
           "workout": {
-            "date": "2019-08-22T15:30:00.000Z",
+            "date": "2019-08-15T15:30:00.000Z",
             "type": "strength"
           },
           "coach": {
@@ -117,8 +117,8 @@
             "name": "Alexander platz"
           },
           "workout": {
-            "date": "2019-08-24T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-13T15:30:00.000Z",
+            "type": "hiit"
           },
           "coach": {
             "name": "Tim"
@@ -132,7 +132,7 @@
             "name": "Mauer park"
           },
           "workout": {
-            "date": "2019-08-22T15:30:00.000Z",
+            "date": "2019-08-11T15:30:00.000Z",
             "type": "strength"
           },
           "coach": {
@@ -147,8 +147,8 @@
             "name": "Alexander platz"
           },
           "workout": {
-            "date": "2019-08-24T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-09T15:30:00.000Z",
+            "type": "hiit"
           },
           "coach": {
             "name": "Tim"
@@ -162,8 +162,8 @@
             "name": "Mauer park"
           },
           "workout": {
-            "date": "2019-08-22T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-07T15:30:00.000Z",
+            "type": "hiit"
           },
           "coach": {
             "name": "Tim"
@@ -177,7 +177,7 @@
             "name": "Alexander platz"
           },
           "workout": {
-            "date": "2019-08-24T15:30:00.000Z",
+            "date": "2019-08-05T15:30:00.000Z",
             "type": "strength"
           },
           "coach": {
@@ -192,8 +192,8 @@
             "name": "Mauer park"
           },
           "workout": {
-            "date": "2019-08-22T15:30:00.000Z",
-            "type": "strength"
+            "date": "2019-08-03T15:30:00.000Z",
+            "type": "hiit"
           },
           "coach": {
             "name": "Tim"
@@ -262,7 +262,7 @@
       },
       "workout": {
         "date": "2019-08-30T15:30:00.000Z",
-        "type": "strength",
+        "type": "triple burn",
         "coach": {
           "name": "Tim"
         }
@@ -321,7 +321,97 @@
         "name": "Mauer park"
       },
       "workout": {
-        "date": "2019-09-05T15:30:00.000Z",
+        "date": "2019-09-06T15:30:00.000Z",
+        "type": "hiit",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexander platz"
+      },
+      "workout": {
+        "date": "2019-09-08T15:30:00.000Z",
+        "type": "strength",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexander platz"
+      },
+      "workout": {
+        "date": "2019-09-10T15:30:00.000Z",
+        "type": "triple burn",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 9,
+      "userId": 1,
+      "status": "cancelled",
+      "location": {
+        "name": "Mauer park"
+      },
+      "workout": {
+        "date": "2019-09-12T15:30:00.000Z",
+        "type": "hiit",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexander platz"
+      },
+      "workout": {
+        "date": "2019-09-15T15:30:00.000Z",
+        "type": "strength",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 11,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Alexander platz"
+      },
+      "workout": {
+        "date": "2019-09-17T15:30:00.000Z",
+        "type": "strength",
+        "coach": {
+          "name": "Tim"
+        }
+      }
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "status": "booked",
+      "location": {
+        "name": "Mauer park"
+      },
+      "workout": {
+        "date": "2019-09-19T15:30:00.000Z",
         "type": "hiit",
         "coach": {
           "name": "Tim"
