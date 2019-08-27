@@ -32,7 +32,7 @@ const BarChartCard = ({ card, statistics }) => (
         label={<CustomizedLabel />}
       >
         {statistics.map((entry, index) => (
-          <Cell fill={card.color} />
+          <Cell key={index} fill={card.color} />
         ))}
       </Bar>
     </BarChart>

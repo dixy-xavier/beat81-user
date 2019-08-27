@@ -36,6 +36,7 @@ const NextWorkouts = () => {
         localizer={localizer}
         events={bookings.map(booking => ({
           title: <Booking
+            key={booking.id}
             type={booking.workout.type}
             coach={booking.workout.coach.name}
             location={booking.location.name}
